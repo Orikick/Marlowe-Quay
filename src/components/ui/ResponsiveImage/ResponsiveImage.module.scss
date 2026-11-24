@@ -1,0 +1,26 @@
+@use '../../../styles' as *;
+
+.frame {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: var(--color-wash);
+}
+
+.image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fallback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $space-2;
+  color: var(--color-ink-soft);
+  font-size: $text-sm;
+}

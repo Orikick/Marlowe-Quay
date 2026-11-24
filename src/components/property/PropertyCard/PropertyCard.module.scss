@@ -1,0 +1,126 @@
+@use '../../../styles' as *;
+
+.card {
+  position: relative;
+  display: flex;
+  // Photo first on screen; title first in the reading order.
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  height: 100%;
+  overflow: hidden;
+  border: 1.5px solid var(--color-line);
+  border-radius: $radius-md;
+  background: var(--color-paper);
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+
+  &:hover {
+    border-color: var(--color-line-strong);
+  }
+}
+
+.highlighted {
+  border-color: var(--color-azul);
+}
+
+.selected {
+  border-color: var(--color-azul);
+  box-shadow: 0 0 0 4px var(--color-tram);
+}
+
+.media {
+  position: relative;
+}
+
+.type {
+  position: absolute;
+  bottom: $space-3;
+  left: $space-3;
+}
+
+.favorite {
+  position: absolute;
+  top: $space-2;
+  right: $space-2;
+  z-index: 2;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: $space-1;
+  padding: $space-3 $space-4 $space-4;
+}
+
+// Price reads first visually, title first for assistive tech.
+.price {
+  order: -1;
+}
+
+.title {
+  font-family: $font-body;
+  font-size: $text-md;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.link {
+  color: var(--color-ink);
+  text-decoration: none;
+
+  // Stretches the link over the whole card.
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    border-radius: $radius-md;
+  }
+
+  &:hover {
+    color: var(--color-ink);
+    text-decoration: underline;
+  }
+
+  &:focus-visible {
+    outline: none;
+
+    // Drawn inside the card edge, because the card clips its overflow.
+    &::after {
+      @include focus-ring(-4px);
+    }
+  }
+}
+
+.address {
+  display: flex;
+  align-items: flex-start;
+  gap: $space-1;
+  color: var(--color-ink-soft);
+  font-size: $text-sm;
+
+  svg {
+    flex: none;
+    margin-top: 2px;
+  }
+}
+
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-1 $space-4;
+  margin-top: $space-2;
+  font-size: $text-sm;
+
+  li {
+    display: inline-flex;
+    align-items: center;
+    gap: $space-1;
+  }
+
+  svg {
+    color: var(--color-azul);
+  }
+}

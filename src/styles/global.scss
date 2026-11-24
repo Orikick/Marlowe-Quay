@@ -1,0 +1,121 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+:root {
+  // Palette drawn from Lisbon: tile cobalt, tram yellow, river-grey ink.
+  --color-ink: #14213d;
+  --color-ink-soft: #46546f;
+  --color-paper: #ffffff;
+  --color-wash: #eef3fb;
+  --color-line: #d3dcec;
+  --color-line-strong: #76849f;
+  --color-azul: #1b49c2;
+  --color-azul-deep: #12338c;
+  --color-tram: #ffc93c;
+  --color-danger: #b42318;
+  --color-danger-wash: #fdecea;
+  --color-success: #17663a;
+  --color-success-wash: #e8f5ec;
+  --color-focus: #1b49c2;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: $header-h + 16px;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: $font-body;
+  font-size: $text-md;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: $font-display;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+p,
+dl,
+dd,
+figure {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+// Icons keep their size inside flex rows.
+svg {
+  flex-shrink: 0;
+}
+
+a {
+  color: var(--color-azul);
+  text-underline-offset: 0.18em;
+
+  &:hover {
+    color: var(--color-azul-deep);
+  }
+}
+
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+}
+
+:focus-visible {
+  @include focus-ring;
+}
+
+.visually-hidden {
+  @include visually-hidden;
+}
+
+@include reduced-motion {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

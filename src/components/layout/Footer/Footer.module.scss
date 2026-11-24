@@ -1,0 +1,86 @@
+@use '../../../styles' as *;
+
+.footer {
+  padding-block: $space-6 $space-5;
+  background: var(--color-ink);
+  color: #dfe6f3;
+  font-size: $text-sm;
+
+  @include gutters;
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: var(--color-tram);
+    }
+
+    &:focus-visible {
+      outline-color: var(--color-tram);
+    }
+  }
+}
+
+.inner {
+  display: grid;
+  gap: $space-5;
+  max-width: 1176px;
+  margin-inline: auto;
+
+  @include from($bp-md) {
+    grid-template-columns: 2fr 1.4fr 1fr;
+    gap: $space-6;
+  }
+}
+
+.about {
+  max-width: 38ch;
+}
+
+.name {
+  margin-bottom: $space-2;
+  color: #fff;
+  font-family: $font-display;
+  font-size: $text-xl;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.heading {
+  margin-bottom: $space-2;
+  color: #fff;
+  font-weight: 600;
+}
+
+.contact {
+  font-style: normal;
+
+  p + p {
+    margin-top: $space-1;
+  }
+}
+
+.links li + li {
+  margin-top: $space-1;
+}
+
+.contact a,
+.links a {
+  display: inline-block;
+  padding-block: 4px;
+}
+
+.note {
+  max-width: 1176px;
+  margin: $space-6 auto 0;
+  padding-top: $space-4;
+  border-top: 1px solid rgba(255, 255, 255, 0.22);
+  color: #c3cde0;
+}
+
+.credit {
+  max-width: 1176px;
+  margin: $space-2 auto 0;
+  color: #fff;
+  font-weight: 600;
+}

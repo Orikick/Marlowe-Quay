@@ -1,0 +1,36 @@
+@use '../../../styles' as *;
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 34rem;
+  padding: $space-6 0;
+}
+
+.icon {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: $space-4;
+  border-radius: 50%;
+  background: var(--color-wash);
+  color: var(--color-azul);
+}
+
+.title {
+  font-size: $text-xl;
+}
+
+.message {
+  margin-top: $space-2;
+  color: var(--color-ink-soft);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-3;
+  margin-top: $space-5;
+}

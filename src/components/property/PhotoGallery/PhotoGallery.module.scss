@@ -1,0 +1,102 @@
+@use '../../../styles' as *;
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: $space-2;
+}
+
+.stage {
+  position: relative;
+}
+
+.stageImage {
+  aspect-ratio: 4 / 3;
+  border-radius: $radius-md;
+
+  @include from($bp-md) {
+    aspect-ratio: 16 / 9;
+  }
+
+  @include from($bp-xl) {
+    aspect-ratio: 21 / 9;
+  }
+}
+
+.arrow {
+  @include button-reset;
+
+  position: absolute;
+  top: 50%;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 1px 4px rgba(20, 33, 61, 0.35);
+  color: var(--color-ink);
+
+  &:hover {
+    background: #fff;
+  }
+}
+
+.prev {
+  left: $space-3;
+}
+
+.next {
+  right: $space-3;
+}
+
+.counter {
+  position: absolute;
+  right: $space-3;
+  bottom: $space-3;
+  padding: 2px $space-2;
+  border-radius: $radius-sm;
+  background: rgba(20, 33, 61, 0.85);
+  color: #fff;
+  font-size: $text-xs;
+  font-weight: 600;
+}
+
+.thumbs {
+  display: flex;
+  gap: $space-2;
+  overflow-x: auto;
+  padding: 4px;
+  margin: -4px;
+  scrollbar-width: thin;
+
+  li {
+    flex: none;
+    width: 88px;
+
+    @include from($bp-md) {
+      width: 120px;
+    }
+  }
+}
+
+.thumb {
+  @include button-reset;
+
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border: 2px solid transparent;
+  border-radius: $radius-sm;
+  opacity: 0.75;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.current {
+  border-color: var(--color-azul);
+  opacity: 1;
+}

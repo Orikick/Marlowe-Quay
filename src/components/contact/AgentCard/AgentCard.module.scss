@@ -1,0 +1,87 @@
+@use '../../../styles' as *;
+
+.agent {
+  display: flex;
+  flex-direction: column;
+  gap: $space-2;
+}
+
+// The avatar, name and role together form one link to the agent's profile.
+.profile {
+  display: flex;
+  align-items: center;
+  gap: $space-3;
+  margin: (-$space-2);
+  padding: $space-2;
+  border-radius: $radius-md;
+  color: var(--color-ink);
+  text-decoration: none;
+  transition: background-color 0.12s ease;
+
+  &:hover {
+    background: var(--color-wash);
+    color: var(--color-ink);
+
+    .name {
+      text-decoration: underline;
+      text-underline-offset: 0.18em;
+    }
+  }
+}
+
+.identity {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.name {
+  font-family: $font-display;
+  font-size: $text-lg;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.role,
+.languages {
+  color: var(--color-ink-soft);
+  font-size: $text-sm;
+}
+
+// Plain inline text so the arrow stays beside the last word when the line wraps.
+.more {
+  display: block;
+  margin-top: 2px;
+  color: var(--color-azul);
+  font-size: $text-sm;
+  font-weight: 600;
+
+  svg {
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: -3px;
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.bio {
+  font-size: $text-sm;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: $space-1;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: $space-2;
+    min-height: 32px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+  }
+}

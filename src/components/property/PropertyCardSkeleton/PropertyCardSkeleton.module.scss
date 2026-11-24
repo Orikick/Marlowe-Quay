@@ -1,0 +1,14 @@
+@use '../../../styles' as *;
+
+.card {
+  overflow: hidden;
+  border: 1.5px solid var(--color-line);
+  border-radius: $radius-md;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: $space-2;
+  padding: $space-3 $space-4 $space-4;
+}

@@ -1,0 +1,49 @@
+@use '../../../styles' as *;
+
+.icon {
+  @include button-reset;
+
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--color-paper);
+  box-shadow: 0 1px 4px rgba(20, 33, 61, 0.3);
+  color: var(--color-ink);
+  transition: transform 0.12s ease;
+
+  &:hover {
+    transform: scale(1.06);
+  }
+
+  &.saved {
+    color: #c4243b;
+  }
+}
+
+.full {
+  @include button-reset;
+
+  display: inline-flex;
+  align-items: center;
+  gap: $space-2;
+  min-height: 44px;
+  padding: $space-2 $space-4;
+  border: 1.5px solid var(--color-line-strong);
+  border-radius: $radius-sm;
+  background: var(--color-paper);
+  font-weight: 600;
+
+  &:hover {
+    border-color: var(--color-ink);
+  }
+
+  &.saved {
+    border-color: #c4243b;
+
+    svg {
+      color: #c4243b;
+    }
+  }
+}

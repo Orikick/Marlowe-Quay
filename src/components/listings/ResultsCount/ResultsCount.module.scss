@@ -1,0 +1,8 @@
+@use '../../../styles' as *;
+
+.count {
+  min-height: 1.5em;
+  color: var(--color-ink-soft);
+  font-size: $text-sm;
+  font-weight: 600;
+}

@@ -1,0 +1,86 @@
+@use '../../../styles' as *;
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  gap: $space-3;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-3;
+}
+
+.toggle {
+  @include button-reset;
+
+  display: inline-flex;
+  align-items: center;
+  gap: $space-2;
+  min-height: 44px;
+  padding: 0 $space-4;
+  border: 1.5px solid var(--color-ink);
+  border-radius: $radius-pill;
+  background: var(--color-paper);
+  font-size: $text-sm;
+  font-weight: 600;
+
+  &:hover {
+    background: var(--color-wash);
+  }
+}
+
+.toggleOpen {
+  background: var(--color-ink);
+  color: #fff;
+
+  &:hover {
+    background: var(--color-ink);
+  }
+}
+
+.count {
+  display: inline-grid;
+  place-items: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: $radius-pill;
+  background: var(--color-tram);
+  color: var(--color-ink);
+  font-size: $text-xs;
+  font-weight: 700;
+}
+
+.panel {
+  padding: $space-4;
+  border: 1.5px solid var(--color-line);
+  border-radius: $radius-md;
+  background: var(--color-paper);
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+.groups {
+  display: grid;
+  gap: $space-5;
+
+  @include from($bp-lg) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: $space-2;
+  margin-top: $space-5;
+  padding-top: $space-4;
+  border-top: 1px solid var(--color-line);
+}

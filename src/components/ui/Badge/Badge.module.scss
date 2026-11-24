@@ -1,0 +1,12 @@
+@use '../../../styles' as *;
+
+.badge {
+  display: inline-block;
+  padding: 3px $space-2;
+  border-radius: $radius-sm;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-size: $text-xs;
+  font-weight: 600;
+  line-height: 1.3;
+}

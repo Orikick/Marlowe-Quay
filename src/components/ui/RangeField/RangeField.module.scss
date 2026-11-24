@@ -1,0 +1,62 @@
+@use '../../../styles' as *;
+
+.range {
+  @include fieldset-reset;
+}
+
+.legend {
+  @include control-label;
+}
+
+.unit {
+  color: var(--color-ink-soft);
+  font-weight: 400;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $space-2;
+}
+
+.side {
+  position: relative;
+  display: block;
+}
+
+// "From" / "To" sit inside the input's left edge.
+.sideLabel {
+  position: absolute;
+  top: 50%;
+  left: $space-3;
+  transform: translateY(-50%);
+  color: var(--color-ink-soft);
+  font-size: $text-sm;
+  pointer-events: none;
+}
+
+.input {
+  @include control;
+
+  // Wrapped so these follow the mixin's nested rules without a Sass mixed-declarations warning.
+  & {
+    padding-left: 3.25rem;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.invalid {
+  border-color: var(--color-danger);
+  background-color: var(--color-danger-wash);
+}
+
+.error {
+  margin-top: $space-1;
+  color: var(--color-danger);
+  font-size: $text-sm;
+  font-weight: 600;
+
+  &:empty {
+    display: none;
+  }
+}

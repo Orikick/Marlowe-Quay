@@ -1,0 +1,23 @@
+@use '../../../styles' as *;
+
+.skip {
+  position: absolute;
+  top: $space-2;
+  left: $space-2;
+  z-index: $z-header + 1;
+  padding: $space-2 $space-4;
+  transform: translateY(-200%);
+  border-radius: $radius-sm;
+  background: var(--color-ink);
+  color: #fff;
+  font-weight: 600;
+
+  &:hover {
+    color: #fff;
+  }
+
+  &:focus {
+    transform: translateY(0);
+    outline-color: var(--color-tram);
+  }
+}

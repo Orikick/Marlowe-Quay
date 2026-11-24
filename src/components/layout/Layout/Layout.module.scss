@@ -1,0 +1,19 @@
+@use '../../../styles' as *;
+
+.main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  // Focused by the skip link only; no ring needed on the whole page area.
+  &:focus {
+    outline: none;
+  }
+}
+
+.loading {
+  display: grid;
+  flex: 1;
+  place-items: center;
+  min-height: 50vh;
+}

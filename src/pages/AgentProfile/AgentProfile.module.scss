@@ -1,0 +1,124 @@
+@use '../../styles' as *;
+
+.page {
+  padding-top: $space-4;
+  padding-bottom: $space-8;
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-2;
+  min-height: 44px;
+  margin-bottom: $space-4;
+  color: var(--color-ink);
+  font-weight: 600;
+
+  &:hover {
+    color: var(--color-azul);
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: $space-4;
+
+  @include from($bp-md) {
+    flex-direction: row;
+    gap: $space-6;
+  }
+}
+
+.intro {
+  max-width: 44rem;
+}
+
+.name {
+  font-size: $text-2xl;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+
+  @include from($bp-md) {
+    font-size: 2.5rem;
+  }
+}
+
+.role {
+  margin-top: $space-1;
+  color: var(--color-ink-soft);
+  font-size: $text-lg;
+}
+
+.bio {
+  max-width: 60ch;
+  margin-top: $space-3;
+  font-size: $text-lg;
+  line-height: 1.6;
+}
+
+.languages {
+  margin-top: $space-2;
+  color: var(--color-ink-soft);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-2;
+  margin-top: $space-5;
+}
+
+.summary {
+  display: grid;
+  gap: $space-3;
+  margin-top: $space-6;
+  padding: $space-4 $space-5;
+  border-radius: $radius-md;
+  background: var(--color-wash);
+
+  @include from($bp-md) {
+    grid-template-columns: auto auto minmax(0, 1fr);
+    gap: $space-6;
+  }
+
+  dt {
+    color: var(--color-ink-soft);
+    font-size: $text-sm;
+  }
+
+  dd {
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.listings {
+  margin-top: $space-7;
+}
+
+.sectionTitle {
+  margin-bottom: $space-4;
+  font-size: $text-xl;
+
+  @include from($bp-md) {
+    font-size: $text-2xl;
+  }
+}
+
+.skeletonHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: $space-5;
+  margin-bottom: $space-7;
+}
+
+.skeletonText {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: $space-3;
+  min-width: 220px;
+}

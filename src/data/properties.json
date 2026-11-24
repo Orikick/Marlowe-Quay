@@ -1,0 +1,1508 @@
+[
+  {
+    "id": "alfama-river-view-apartment",
+    "title": "Two-bedroom apartment with river views",
+    "type": "apartment",
+    "price": 545000,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": 78,
+    "floor": "3rd floor, no lift",
+    "yearBuilt": 1930,
+    "energyRating": "C",
+    "address": {
+      "street": "Rua dos Remédios 112",
+      "neighbourhood": "Alfama",
+      "postcode": "1100-453",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7128,
+      "lng": -9.1262
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+        "alt": "Living room with a blue sofa and tall windows"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1",
+        "alt": "Kitchen with wooden worktops"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "alt": "Bedroom with a grey headboard"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14",
+        "alt": "White bathroom with a plant"
+      }
+    ],
+    "description": "The living room and main bedroom look over the rooftops to the Tagus. The building was re-roofed and rewired in 2021, and the apartment keeps its original pine floors and window shutters.",
+    "features": [
+      "River view",
+      "Original pine floors",
+      "Double glazing",
+      "Renovated in 2021"
+    ],
+    "agentId": "ines-carvalho",
+    "listedAt": "2026-11-04"
+  },
+  {
+    "id": "graca-studio-with-terrace",
+    "title": "Studio with a private roof terrace",
+    "type": "studio",
+    "price": 265000,
+    "rooms": 1,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "area": 34,
+    "floor": "4th floor, no lift",
+    "yearBuilt": 1948,
+    "energyRating": "D",
+    "address": {
+      "street": "Rua da Graça 58",
+      "neighbourhood": "Graça",
+      "postcode": "1170-169",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7178,
+      "lng": -9.1296
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1536376072261-38c75010e6c9",
+        "alt": "Compact studio with shelving and a dining nook"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+        "alt": "Small white dining table by a window"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a",
+        "alt": "Bathroom with a glass shower"
+      }
+    ],
+    "description": "A top-floor studio with its own 12 m² terrace, reached by an internal stair. Tram 28 stops at the end of the street and the Graça viewpoint is a four-minute walk.",
+    "features": [
+      "12 m² roof terrace",
+      "Fitted kitchen",
+      "Sold furnished",
+      "Low service charge"
+    ],
+    "agentId": "ines-carvalho",
+    "listedAt": "2026-10-28"
+  },
+  {
+    "id": "mouraria-renovated-one-bed",
+    "title": "Renovated one-bedroom in a tiled building",
+    "type": "apartment",
+    "price": 338000,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": 52,
+    "floor": "2nd floor, no lift",
+    "yearBuilt": 1905,
+    "energyRating": "C",
+    "address": {
+      "street": "Rua do Benformoso 71",
+      "neighbourhood": "Mouraria",
+      "postcode": "1100-084",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7164,
+      "lng": -9.1352
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+        "alt": "Living room with plants and a wooden chair"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1556911220-bff31c812dba",
+        "alt": "White kitchen worktop with fruit"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af",
+        "alt": "Bedroom with a bedside lamp"
+      }
+    ],
+    "description": "A full renovation finished this spring: new plumbing, new electrics and a kitchen that opens to the living room. The facade keeps its blue and white tiles, restored by the building.",
+    "features": [
+      "Fully renovated",
+      "Tiled facade",
+      "Air conditioning",
+      "Metro in 5 minutes"
+    ],
+    "agentId": "ines-carvalho",
+    "listedAt": "2026-10-12"
+  },
+  {
+    "id": "baixa-pombaline-three-bed",
+    "title": "Three-bedroom Pombaline apartment",
+    "type": "apartment",
+    "price": 895000,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 132,
+    "floor": "2nd floor with lift",
+    "yearBuilt": 1790,
+    "energyRating": "D",
+    "address": {
+      "street": "Rua da Madalena 145",
+      "neighbourhood": "Baixa",
+      "postcode": "1100-319",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7112,
+      "lng": -9.1352
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1616137466211-f939a420be84",
+        "alt": "Living room with tall windows"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0",
+        "alt": "Dining room with pendant lamps"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600585152220-90363fe7e115",
+        "alt": "White kitchen with an island and stools"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+        "alt": "Bedroom with a bench at the foot of the bed"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1620626011761-996317b8d101",
+        "alt": "Bathroom with a freestanding bathtub"
+      }
+    ],
+    "description": "High ceilings, five street-facing windows and a dining room that seats ten. The building has a lift and a restored stone staircase, both rare this close to Praça da Figueira.",
+    "features": [
+      "3.4 m ceilings",
+      "Lift",
+      "Two bathrooms",
+      "Storage room in the attic"
+    ],
+    "agentId": "ines-carvalho",
+    "listedAt": "2026-11-09"
+  },
+  {
+    "id": "chiado-penthouse-with-terrace",
+    "title": "Duplex penthouse with a wraparound terrace",
+    "type": "penthouse",
+    "price": 2150000,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 198,
+    "floor": "6th and 7th floors with lift",
+    "yearBuilt": 2019,
+    "energyRating": "A",
+    "address": {
+      "street": "Rua Garrett 36",
+      "neighbourhood": "Chiado",
+      "postcode": "1200-204",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7106,
+      "lng": -9.141
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1564078516393-cf04bd966897",
+        "alt": "Living room with floor-to-ceiling windows in the evening"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1565182999561-18d7dc61c393",
+        "alt": "Living space with an open staircase"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600566752229-250ed79470f8",
+        "alt": "White kitchen with built-in ovens"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf",
+        "alt": "White bedroom with a large bed"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600566752355-35792bedcfea",
+        "alt": "Grey bathroom with a freestanding bathtub"
+      }
+    ],
+    "description": "The upper floor is one room for cooking, eating and sitting, with glass on three sides and a 60 m² terrace facing the castle. Three bedrooms sit below, each with its own bathroom.",
+    "features": [
+      "60 m² terrace",
+      "Two parking spaces",
+      "Concierge",
+      "Underfloor heating",
+      "Castle view"
+    ],
+    "agentId": "ines-carvalho",
+    "listedAt": "2026-11-11"
+  },
+  {
+    "id": "bairro-alto-loft-studio",
+    "title": "Loft studio with a mezzanine bedroom",
+    "type": "studio",
+    "price": 298000,
+    "rooms": 1,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "area": 41,
+    "floor": "1st floor, no lift",
+    "yearBuilt": 1890,
+    "energyRating": "D",
+    "address": {
+      "street": "Rua da Rosa 203",
+      "neighbourhood": "Bairro Alto",
+      "postcode": "1200-384",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7146,
+      "lng": -9.1455
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1560440021-33f9b867899d",
+        "alt": "Dining area below a mezzanine"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "alt": "Yellow armchair against a white wall"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14",
+        "alt": "White bathroom with a plant"
+      }
+    ],
+    "description": "A former printing workshop with a 4.2 m ceiling, converted into a studio with a sleeping mezzanine. The windows face an inner courtyard, so the street is not heard at night.",
+    "features": [
+      "Mezzanine bedroom",
+      "Courtyard facing",
+      "Exposed beams",
+      "Short-let licence"
+    ],
+    "agentId": "ines-carvalho",
+    "listedAt": "2026-09-30"
+  },
+  {
+    "id": "principe-real-garden-apartment",
+    "title": "Garden-level apartment by the botanical garden",
+    "type": "apartment",
+    "price": 780000,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 104,
+    "floor": "Ground floor",
+    "yearBuilt": 1925,
+    "energyRating": "C",
+    "address": {
+      "street": "Rua da Escola Politécnica 88",
+      "neighbourhood": "Príncipe Real",
+      "postcode": "1250-102",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7178,
+      "lng": -9.15
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0",
+        "alt": "Sunny living room with a leather sofa and plants"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1617806118233-18e1de247200",
+        "alt": "Dining table with green chairs"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1615874959474-d609969a20ed",
+        "alt": "Bedroom with warm-toned bedding"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a",
+        "alt": "Bathroom with a glass shower"
+      }
+    ],
+    "description": "Both bedrooms open onto a private 45 m² garden with a lemon tree and a tiled wall. The living room faces the street through two full-height windows.",
+    "features": [
+      "45 m² private garden",
+      "Two bathrooms",
+      "Wood-burning stove",
+      "Step-free entrance"
+    ],
+    "agentId": "ines-carvalho",
+    "listedAt": "2026-10-20"
+  },
+  {
+    "id": "principe-real-townhouse",
+    "title": "Four-storey townhouse with a walled garden",
+    "type": "townhouse",
+    "price": 1680000,
+    "rooms": 6,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 242,
+    "floor": null,
+    "yearBuilt": 1880,
+    "energyRating": "C",
+    "address": {
+      "street": "Rua de O Século 127",
+      "neighbourhood": "Príncipe Real",
+      "postcode": "1200-434",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7139,
+      "lng": -9.1478
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1600585154526-990dced4db0d",
+        "alt": "Dark-clad modern townhouse facade"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea",
+        "alt": "Open-plan living room"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+        "alt": "Kitchen with an island and pendant lights"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8",
+        "alt": "Bedroom with dark walls and a wooden floor"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1620626011761-996317b8d101",
+        "alt": "Bathroom with a freestanding bathtub"
+      }
+    ],
+    "description": "A whole house on four floors, restored in 2022 with a new steel staircase and a kitchen that opens to the garden. The top floor is a single main suite with a river glimpse.",
+    "features": [
+      "Walled garden",
+      "Restored in 2022",
+      "Wine cellar",
+      "Garage for one car"
+    ],
+    "agentId": "ines-carvalho",
+    "listedAt": "2026-08-27"
+  },
+  {
+    "id": "bica-one-bed-by-the-funicular",
+    "title": "One-bedroom apartment beside the Bica funicular",
+    "type": "apartment",
+    "price": 365000,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": 48,
+    "floor": "2nd floor, no lift",
+    "yearBuilt": 1912,
+    "energyRating": "D",
+    "address": {
+      "street": "Rua da Bica de Duarte Belo 44",
+      "neighbourhood": "Bica",
+      "postcode": "1200-058",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7088,
+      "lng": -9.1466
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1484101403633-562f891dc89a",
+        "alt": "Sofa beneath framed art"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1",
+        "alt": "Kitchen with wooden worktops"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd",
+        "alt": "Bedroom with white bedding"
+      }
+    ],
+    "description": "The living room balcony looks straight down the funicular street to the river. Compact and well planned, with built-in storage in the bedroom and hallway.",
+    "features": [
+      "Balcony",
+      "River glimpse",
+      "Built-in storage",
+      "New windows"
+    ],
+    "agentId": "ines-carvalho",
+    "listedAt": "2026-09-18"
+  },
+  {
+    "id": "santos-design-district-two-bed",
+    "title": "Two-bedroom apartment in the Santos design district",
+    "type": "apartment",
+    "price": 612000,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 91,
+    "floor": "4th floor with lift",
+    "yearBuilt": 2008,
+    "energyRating": "B",
+    "address": {
+      "street": "Rua das Janelas Verdes 64",
+      "neighbourhood": "Santos",
+      "postcode": "1200-691",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7059,
+      "lng": -9.1598
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1524758631624-e2822e304c36",
+        "alt": "Living room with designer chairs and a floor lamp"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4",
+        "alt": "Kitchen with dark cabinets"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "alt": "Bedroom with a grey headboard"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600566752355-35792bedcfea",
+        "alt": "Grey bathroom with a freestanding bathtub"
+      }
+    ],
+    "description": "A corner apartment in a 2008 building, with windows on two sides and a parking space in the basement. The National Museum of Ancient Art is across the road.",
+    "features": [
+      "Parking space",
+      "Lift",
+      "Corner unit",
+      "Air conditioning"
+    ],
+    "agentId": "tomas-figueira",
+    "listedAt": "2026-10-30"
+  },
+  {
+    "id": "lapa-embassy-quarter-townhouse",
+    "title": "Townhouse in the embassy quarter",
+    "type": "townhouse",
+    "price": 1450000,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 210,
+    "floor": null,
+    "yearBuilt": 1935,
+    "energyRating": "C",
+    "address": {
+      "street": "Rua do Sacramento à Lapa 31",
+      "neighbourhood": "Lapa",
+      "postcode": "1200-792",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7086,
+      "lng": -9.1627
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1600573472592-401b489a3cdc",
+        "alt": "Modern townhouse facade with a slatted screen"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1501183638710-841dd1904471",
+        "alt": "Living room with a fireplace"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0",
+        "alt": "Dining room with pendant lamps"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+        "alt": "Bedroom with a bench at the foot of the bed"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14",
+        "alt": "White bathroom with a plant"
+      }
+    ],
+    "description": "Three floors and a paved rear patio on one of the quietest streets in Lapa. The ground floor works as one long room from the front door to the patio doors.",
+    "features": [
+      "Rear patio",
+      "Fireplace",
+      "Three bathrooms",
+      "Resident parking permit"
+    ],
+    "agentId": "tomas-figueira",
+    "listedAt": "2026-09-05"
+  },
+  {
+    "id": "estrela-park-side-apartment",
+    "title": "Three-bedroom apartment facing Jardim da Estrela",
+    "type": "apartment",
+    "price": 845000,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 126,
+    "floor": "3rd floor with lift",
+    "yearBuilt": 1958,
+    "energyRating": "C",
+    "address": {
+      "street": "Calçada da Estrela 129",
+      "neighbourhood": "Estrela",
+      "postcode": "1200-661",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7136,
+      "lng": -9.1583
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1560185127-6ed189bf02f4",
+        "alt": "Living room with a beige sofa and wooden floor"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1560185008-b033106af5c3",
+        "alt": "Dining area with a wooden floor"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600566752229-250ed79470f8",
+        "alt": "White kitchen with built-in ovens"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf",
+        "alt": "White bedroom with a large bed"
+      }
+    ],
+    "description": "Every front window looks into the trees of the park. A mid-century building with a doorman, a lift and unusually wide hallways.",
+    "features": [
+      "Park view",
+      "Doorman",
+      "Lift",
+      "Separate laundry room"
+    ],
+    "agentId": "tomas-figueira",
+    "listedAt": "2026-11-02"
+  },
+  {
+    "id": "campo-de-ourique-family-apartment",
+    "title": "Family apartment near the market",
+    "type": "apartment",
+    "price": 689000,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 112,
+    "floor": "1st floor with lift",
+    "yearBuilt": 1962,
+    "energyRating": "C",
+    "address": {
+      "street": "Rua Coelho da Rocha 56",
+      "neighbourhood": "Campo de Ourique",
+      "postcode": "1350-075",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7176,
+      "lng": -9.1668
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
+        "alt": "Neutral living room with a round coffee table"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600585152220-90363fe7e115",
+        "alt": "White kitchen with an island and stools"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1540518614846-7eded433c457",
+        "alt": "Bedroom with artwork above the bed"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a",
+        "alt": "Bathroom with a glass shower"
+      }
+    ],
+    "description": "Three proper bedrooms, a kitchen with room for a table and a closed balcony used as a playroom. The market and two primary schools are within 300 metres.",
+    "features": [
+      "Eat-in kitchen",
+      "Closed balcony",
+      "Lift",
+      "Storage unit"
+    ],
+    "agentId": "tomas-figueira",
+    "listedAt": "2026-10-08"
+  },
+  {
+    "id": "campo-de-ourique-studio",
+    "title": "Ground-floor studio with a patio",
+    "type": "studio",
+    "price": 228000,
+    "rooms": 1,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "area": 32,
+    "floor": "Ground floor",
+    "yearBuilt": 1955,
+    "energyRating": "E",
+    "address": {
+      "street": "Rua Tomás da Anunciação 18",
+      "neighbourhood": "Campo de Ourique",
+      "postcode": "1350-322",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7192,
+      "lng": -9.1651
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1513694203232-719a280e022f",
+        "alt": "Corner of a living room with a plant"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1556911220-bff31c812dba",
+        "alt": "White kitchen worktop with fruit"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a",
+        "alt": "Bathroom with a glass shower"
+      }
+    ],
+    "description": "A small, sound studio with a 9 m² patio that gets sun until mid-afternoon. It needs a new kitchen, and the price reflects that.",
+    "features": [
+      "9 m² patio",
+      "Step-free entrance",
+      "Needs a new kitchen",
+      "Tram 28 nearby"
+    ],
+    "agentId": "tomas-figueira",
+    "listedAt": "2026-09-22"
+  },
+  {
+    "id": "alcantara-warehouse-loft",
+    "title": "Converted warehouse loft near LX Factory",
+    "type": "apartment",
+    "price": 598000,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 118,
+    "floor": "1st floor with goods lift",
+    "yearBuilt": 1920,
+    "energyRating": "B",
+    "address": {
+      "street": "Rua Luís de Camões 92",
+      "neighbourhood": "Alcântara",
+      "postcode": "1300-357",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7052,
+      "lng": -9.1778
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6",
+        "alt": "Staircase in a double-height living space"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+        "alt": "Open living and dining room in grey tones"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4",
+        "alt": "Kitchen with dark cabinets"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8",
+        "alt": "Bedroom with dark walls and a wooden floor"
+      }
+    ],
+    "description": "Part of a former textile warehouse split into eight lofts in 2017. Steel windows, a double-height living room and two bedrooms on a gallery floor.",
+    "features": [
+      "Double-height living room",
+      "Steel-frame windows",
+      "Parking space",
+      "Bike storage"
+    ],
+    "agentId": "tomas-figueira",
+    "listedAt": "2026-10-16"
+  },
+  {
+    "id": "belem-house-with-garden",
+    "title": "Four-bedroom house with a garden",
+    "type": "house",
+    "price": 1890000,
+    "rooms": 6,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area": 285,
+    "floor": null,
+    "yearBuilt": 2014,
+    "energyRating": "A",
+    "address": {
+      "street": "Rua de Pedrouços 47",
+      "neighbourhood": "Belém",
+      "postcode": "1400-285",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.6965,
+      "lng": -9.2222
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+        "alt": "Modern house with timber cladding"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+        "alt": "Modern living room with timber panelling"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+        "alt": "Kitchen with an island and pendant lights"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1615874959474-d609969a20ed",
+        "alt": "Bedroom with warm-toned bedding"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1620626011761-996317b8d101",
+        "alt": "Bathroom with a freestanding bathtub"
+      }
+    ],
+    "description": "Built in 2014 on a 520 m² plot, with solar panels and a ground-floor guest suite. The garden wraps around three sides and the river path is five minutes away on foot.",
+    "features": [
+      "520 m² plot",
+      "Solar panels",
+      "Garage for two cars",
+      "Guest suite"
+    ],
+    "agentId": "tomas-figueira",
+    "listedAt": "2026-08-19"
+  },
+  {
+    "id": "restelo-villa-with-pool",
+    "title": "Villa with a pool and river views",
+    "type": "house",
+    "price": 3250000,
+    "rooms": 8,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "area": 420,
+    "floor": null,
+    "yearBuilt": 2020,
+    "energyRating": "A+",
+    "address": {
+      "street": "Avenida do Restelo 23",
+      "neighbourhood": "Restelo",
+      "postcode": "1400-314",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7031,
+      "lng": -9.2128
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1613490493576-7fde63acd811",
+        "alt": "Contemporary villa with a long swimming pool"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6",
+        "alt": "Living room with a long sofa and orange stools"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600585152220-90363fe7e115",
+        "alt": "White kitchen with an island and stools"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf",
+        "alt": "White bedroom with a large bed"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600566752355-35792bedcfea",
+        "alt": "Grey bathroom with a freestanding bathtub"
+      }
+    ],
+    "description": "Three floors arranged around a 14-metre pool, with the river visible from the living room and every bedroom terrace. Finished in 2020 and lived in by one family since.",
+    "features": [
+      "14 m heated pool",
+      "River view",
+      "Lift",
+      "Home cinema",
+      "Garage for three cars"
+    ],
+    "agentId": "tomas-figueira",
+    "listedAt": "2026-11-06"
+  },
+  {
+    "id": "restelo-modernist-house",
+    "title": "Modernist house on a corner plot",
+    "type": "house",
+    "price": 2400000,
+    "rooms": 6,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 318,
+    "floor": null,
+    "yearBuilt": 1964,
+    "energyRating": "B",
+    "address": {
+      "street": "Rua Dom Francisco de Almeida 9",
+      "neighbourhood": "Restelo",
+      "postcode": "1400-117",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7049,
+      "lng": -9.2087
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1523217582562-09d0def993a6",
+        "alt": "White cubic house under a clear sky"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600607687644-c7171b42498f",
+        "alt": "Living room with a grey sofa"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600566752229-250ed79470f8",
+        "alt": "White kitchen with built-in ovens"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "alt": "Bedroom with a grey headboard"
+      }
+    ],
+    "description": "A 1964 house by a Lisbon architect, carefully updated in 2018 without losing its concrete canopy and terrazzo floors. The corner plot gives sun in the garden all day.",
+    "features": [
+      "Terrazzo floors",
+      "South-facing garden",
+      "Updated in 2018",
+      "Garage for two cars"
+    ],
+    "agentId": "tomas-figueira",
+    "listedAt": "2026-09-12"
+  },
+  {
+    "id": "ajuda-terraced-house",
+    "title": "Terraced house near the botanical garden",
+    "type": "townhouse",
+    "price": 765000,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 148,
+    "floor": null,
+    "yearBuilt": 1940,
+    "energyRating": "D",
+    "address": {
+      "street": "Calçada da Ajuda 176",
+      "neighbourhood": "Ajuda",
+      "postcode": "1300-018",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7049,
+      "lng": -9.1987
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3",
+        "alt": "Modern house with timber and dark cladding"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1585412727339-54e4bae3bbf9",
+        "alt": "Bright living room with a wooden floor"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1",
+        "alt": "Kitchen with wooden worktops"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af",
+        "alt": "Bedroom with a bedside lamp"
+      }
+    ],
+    "description": "Two floors plus a converted attic, with a small yard at the back. A practical family house on the tram 18 line, ten minutes from Belém.",
+    "features": [
+      "Back yard",
+      "Converted attic",
+      "New roof in 2023",
+      "Street parking"
+    ],
+    "agentId": "tomas-figueira",
+    "listedAt": "2026-10-03"
+  },
+  {
+    "id": "avenidas-novas-art-deco-apartment",
+    "title": "Art Deco apartment with original features",
+    "type": "apartment",
+    "price": 725000,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 138,
+    "floor": "2nd floor with lift",
+    "yearBuilt": 1938,
+    "energyRating": "D",
+    "address": {
+      "street": "Avenida da República 48",
+      "neighbourhood": "Avenidas Novas",
+      "postcode": "1050-195",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7392,
+      "lng": -9.1466
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1600121848594-d8644e57abab",
+        "alt": "Grey living room with a patterned rug"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1617806118233-18e1de247200",
+        "alt": "Dining table with green chairs"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4",
+        "alt": "Kitchen with dark cabinets"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1540518614846-7eded433c457",
+        "alt": "Bedroom with artwork above the bed"
+      }
+    ],
+    "description": "Curved bay windows, plaster ceilings and the original stained-glass doors between the reception rooms. The kitchen and both bathrooms were replaced in 2020.",
+    "features": [
+      "Original stained glass",
+      "Bay windows",
+      "Lift",
+      "Staff room and second entrance"
+    ],
+    "agentId": "beatriz-nogueira",
+    "listedAt": "2026-10-24"
+  },
+  {
+    "id": "saldanha-two-bed-with-parking",
+    "title": "Two-bedroom apartment with parking",
+    "type": "apartment",
+    "price": 520000,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 88,
+    "floor": "5th floor with lift",
+    "yearBuilt": 2011,
+    "energyRating": "B",
+    "address": {
+      "street": "Avenida Duque de Ávila 73",
+      "neighbourhood": "Saldanha",
+      "postcode": "1000-139",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7352,
+      "lng": -9.1432
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1515263487990-61b07816b324",
+        "alt": "Modern apartment building with large windows"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e",
+        "alt": "White sofa in a bright living room"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1556911220-bff31c812dba",
+        "alt": "White kitchen worktop with fruit"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd",
+        "alt": "Bedroom with white bedding"
+      }
+    ],
+    "description": "A bright fifth-floor apartment with a balcony over the cycle path and a parking space two floors down. Saldanha metro station is two minutes away on foot.",
+    "features": [
+      "Parking space",
+      "Balcony",
+      "Lift",
+      "Central heating"
+    ],
+    "agentId": "beatriz-nogueira",
+    "listedAt": "2026-11-07"
+  },
+  {
+    "id": "alvalade-three-bed-near-metro",
+    "title": "Three-bedroom apartment near Roma metro",
+    "type": "apartment",
+    "price": 610000,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 115,
+    "floor": "2nd floor with lift",
+    "yearBuilt": 1957,
+    "energyRating": "C",
+    "address": {
+      "street": "Avenida de Roma 91",
+      "neighbourhood": "Alvalade",
+      "postcode": "1700-344",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7485,
+      "lng": -9.141
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1574362848149-11496d93a7c7",
+        "alt": "Brick apartment building with balconies behind trees"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92",
+        "alt": "Living room with a pale sofa and plants"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+        "alt": "Kitchen with an island and pendant lights"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+        "alt": "Bedroom with a bench at the foot of the bed"
+      }
+    ],
+    "description": "A classic Alvalade layout: wide hallway, three bedrooms to the back and a living room with two balconies to the avenue. The roof and lift were renewed in 2022.",
+    "features": [
+      "Two balconies",
+      "Lift",
+      "Renewed roof",
+      "Storage room"
+    ],
+    "agentId": "beatriz-nogueira",
+    "listedAt": "2026-09-27"
+  },
+  {
+    "id": "arroios-bright-one-bed",
+    "title": "Bright one-bedroom on a quiet square",
+    "type": "apartment",
+    "price": 315000,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": 56,
+    "floor": "3rd floor, no lift",
+    "yearBuilt": 1946,
+    "energyRating": "D",
+    "address": {
+      "street": "Rua Carlos Mardel 27",
+      "neighbourhood": "Arroios",
+      "postcode": "1900-117",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7345,
+      "lng": -9.1335
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+        "alt": "Bright living room with large windows"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1",
+        "alt": "Kitchen with wooden worktops"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af",
+        "alt": "Bedroom with a bedside lamp"
+      }
+    ],
+    "description": "Morning sun in the bedroom, afternoon sun in the living room. The apartment faces a small square with a kiosk café and has been freshly painted throughout.",
+    "features": [
+      "Dual aspect",
+      "Wooden floors",
+      "Freshly painted",
+      "Low service charge"
+    ],
+    "agentId": "beatriz-nogueira",
+    "listedAt": "2026-10-14"
+  },
+  {
+    "id": "anjos-studio-for-first-buyers",
+    "title": "Compact studio near Intendente",
+    "type": "studio",
+    "price": 199000,
+    "rooms": 1,
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "area": 28,
+    "floor": "1st floor, no lift",
+    "yearBuilt": 1950,
+    "energyRating": "E",
+    "address": {
+      "street": "Avenida Almirante Reis 62",
+      "neighbourhood": "Anjos",
+      "postcode": "1150-019",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7237,
+      "lng": -9.1349
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc",
+        "alt": "Green velvet sofa"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+        "alt": "Small white dining table by a window"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a",
+        "alt": "Bathroom with a glass shower"
+      }
+    ],
+    "description": "The lowest-priced home on our books: 28 m² with a separate shower room and a kitchen along one wall. Anjos metro station is at the door.",
+    "features": [
+      "Metro at the door",
+      "Separate shower room",
+      "Rear facing",
+      "Rental history available"
+    ],
+    "agentId": "beatriz-nogueira",
+    "listedAt": "2026-09-09"
+  },
+  {
+    "id": "campolide-penthouse",
+    "title": "Penthouse with a view over Monsanto",
+    "type": "penthouse",
+    "price": 1150000,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 156,
+    "floor": "8th floor with lift",
+    "yearBuilt": 2016,
+    "energyRating": "A",
+    "address": {
+      "street": "Rua de Campolide 215",
+      "neighbourhood": "Campolide",
+      "postcode": "1070-029",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7305,
+      "lng": -9.1655
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b",
+        "alt": "White apartment building with balconies at dusk"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1631679706909-1844bbd07221",
+        "alt": "Beige living room with round wall decor"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600585152220-90363fe7e115",
+        "alt": "White kitchen with an island and stools"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1615874959474-d609969a20ed",
+        "alt": "Bedroom with warm-toned bedding"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1620626011761-996317b8d101",
+        "alt": "Bathroom with a freestanding bathtub"
+      }
+    ],
+    "description": "The whole top floor of a 2016 building, with a 40 m² west-facing terrace looking over the aqueduct to Monsanto park. Two parking spaces and a storage unit are included.",
+    "features": [
+      "40 m² terrace",
+      "Two parking spaces",
+      "Air conditioning",
+      "Storage unit"
+    ],
+    "agentId": "beatriz-nogueira",
+    "listedAt": "2026-10-31"
+  },
+  {
+    "id": "benfica-house-with-garage",
+    "title": "Detached house with a garage and garden",
+    "type": "house",
+    "price": 1150000,
+    "rooms": 6,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 236,
+    "floor": null,
+    "yearBuilt": 1998,
+    "energyRating": "C",
+    "address": {
+      "street": "Estrada de Benfica 512",
+      "neighbourhood": "Benfica",
+      "postcode": "1500-104",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7508,
+      "lng": -9.1985
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1600563438938-a9a27216b4f5",
+        "alt": "Detached house under a blue sky"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+        "alt": "Open-plan living room and kitchen"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1560185008-b033106af5c3",
+        "alt": "Dining area with a wooden floor"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8",
+        "alt": "Bedroom with dark walls and a wooden floor"
+      }
+    ],
+    "description": "A detached four-bedroom house set back from the road behind a front garden. The basement holds a double garage and a workshop with its own entrance.",
+    "features": [
+      "Front and back garden",
+      "Double garage",
+      "Workshop",
+      "Central heating"
+    ],
+    "agentId": "beatriz-nogueira",
+    "listedAt": "2026-08-30"
+  },
+  {
+    "id": "lumiar-new-build-two-bed",
+    "title": "New-build two-bedroom with a balcony",
+    "type": "apartment",
+    "price": 478000,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 94,
+    "floor": "2nd floor with lift",
+    "yearBuilt": 2026,
+    "energyRating": "A",
+    "address": {
+      "street": "Alameda das Linhas de Torres 142",
+      "neighbourhood": "Lumiar",
+      "postcode": "1750-149",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7689,
+      "lng": -9.1601
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00",
+        "alt": "Dark apartment building facade"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+        "alt": "Living room with an orange sofa"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600566752229-250ed79470f8",
+        "alt": "White kitchen with built-in ovens"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf",
+        "alt": "White bedroom with a large bed"
+      }
+    ],
+    "description": "Completed this autumn and never lived in. An 11 m² balcony, a fitted kitchen with appliances and a parking space with an electric-car charging point.",
+    "features": [
+      "Never occupied",
+      "11 m² balcony",
+      "EV charging point",
+      "Ten-year builder warranty"
+    ],
+    "agentId": "beatriz-nogueira",
+    "listedAt": "2026-11-12"
+  },
+  {
+    "id": "marvila-artists-quarter-loft",
+    "title": "Industrial loft in the Marvila arts quarter",
+    "type": "apartment",
+    "price": 445000,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": 86,
+    "floor": "Ground floor",
+    "yearBuilt": 1935,
+    "energyRating": "C",
+    "address": {
+      "street": "Rua do Açúcar 76",
+      "neighbourhood": "Marvila",
+      "postcode": "1950-009",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7385,
+      "lng": -9.1035
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        "alt": "Hallway with a staircase and plants"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600494603989-9650cf6ddd3d",
+        "alt": "Room with a dark green wall"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4",
+        "alt": "Kitchen with dark cabinets"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1540518614846-7eded433c457",
+        "alt": "Bedroom with artwork above the bed"
+      }
+    ],
+    "description": "One large room with a polished concrete floor, a kitchen island and a bedroom behind a glazed partition. Galleries and two craft breweries share the street.",
+    "features": [
+      "Polished concrete floor",
+      "Live-work permitted",
+      "Roller-door access",
+      "Underfloor heating"
+    ],
+    "agentId": "duarte-meireles",
+    "listedAt": "2026-10-06"
+  },
+  {
+    "id": "beato-riverside-townhouse",
+    "title": "Restored townhouse near the river",
+    "type": "townhouse",
+    "price": 890000,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 176,
+    "floor": null,
+    "yearBuilt": 1910,
+    "energyRating": "B",
+    "address": {
+      "street": "Rua do Grilo 39",
+      "neighbourhood": "Beato",
+      "postcode": "1950-144",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.731,
+      "lng": -9.1075
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1494526585095-c41746248156",
+        "alt": "Modern house lit up at dusk"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e",
+        "alt": "Sofa with teal cushions"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0",
+        "alt": "Dining room with pendant lamps"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af",
+        "alt": "Bedroom with a bedside lamp"
+      }
+    ],
+    "description": "Restored from the walls in during 2023, with a new timber structure and insulation throughout. The roof terrace looks across the river to the south bank.",
+    "features": [
+      "Roof terrace",
+      "Restored in 2023",
+      "Heat pump",
+      "Small courtyard"
+    ],
+    "agentId": "duarte-meireles",
+    "listedAt": "2026-09-25"
+  },
+  {
+    "id": "parque-das-nacoes-penthouse",
+    "title": "Riverfront penthouse with two terraces",
+    "type": "penthouse",
+    "price": 1780000,
+    "rooms": 5,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 214,
+    "floor": "12th floor with lift",
+    "yearBuilt": 2018,
+    "energyRating": "A",
+    "address": {
+      "street": "Alameda dos Oceanos 61",
+      "neighbourhood": "Parque das Nações",
+      "postcode": "1990-208",
+      "city": "Lisboa"
+    },
+    "coordinates": {
+      "lat": 38.7687,
+      "lng": -9.0958
+    },
+    "photos": [
+      {
+        "src": "https://images.unsplash.com/photo-1460317442991-0ec209397118",
+        "alt": "Apartment building with balconies"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1565182999561-18d7dc61c393",
+        "alt": "Living space with an open staircase"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+        "alt": "Kitchen with an island and pendant lights"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "alt": "Bedroom with a grey headboard"
+      },
+      {
+        "src": "https://images.unsplash.com/photo-1600566752355-35792bedcfea",
+        "alt": "Grey bathroom with a freestanding bathtub"
+      }
+    ],
+    "description": "Terraces on the east and west sides give sunrise over the Tagus and sunset over the city. The building has a gym, a pool and a 24-hour front desk.",
+    "features": [
+      "Two terraces",
+      "Residents pool and gym",
+      "Three parking spaces",
+      "24-hour front desk"
+    ],
+    "agentId": "duarte-meireles",
+    "listedAt": "2026-11-10"
+  }
+]

@@ -1,0 +1,43 @@
+@use '../../../styles' as *;
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: $space-2;
+}
+
+.chip {
+  @include button-reset;
+
+  display: inline-flex;
+  align-items: center;
+  gap: $space-1;
+  min-height: 36px;
+  padding: 0 $space-2 0 $space-3;
+  border-radius: $radius-pill;
+  background: var(--color-wash);
+  color: var(--color-ink);
+  font-size: $text-sm;
+  font-weight: 600;
+
+  &:hover {
+    background: var(--color-line);
+  }
+}
+
+.clear {
+  @include button-reset;
+
+  min-height: 36px;
+  padding: 0 $space-2;
+  color: var(--color-azul);
+  font-size: $text-sm;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+
+  &:hover {
+    color: var(--color-azul-deep);
+  }
+}

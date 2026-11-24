@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ines-carvalho",
+    "name": "Inês Carvalho",
+    "role": "Senior agent, historic centre",
+    "phone": "+351 21 555 0142",
+    "email": "ines@marloweandquay.example",
+    "languages": ["Portuguese", "English", "French"],
+    "bio": "Inês has sold homes in Alfama, Chiado and Príncipe Real for eleven years and lives in Graça."
+  },
+  {
+    "id": "tomas-figueira",
+    "name": "Tomás Figueira",
+    "role": "Agent, riverside and west Lisbon",
+    "phone": "+351 21 555 0157",
+    "email": "tomas@marloweandquay.example",
+    "languages": ["Portuguese", "English", "Spanish"],
+    "bio": "Tomás covers Santos to Restelo and trained as a building surveyor before joining us in 2017."
+  },
+  {
+    "id": "beatriz-nogueira",
+    "name": "Beatriz Nogueira",
+    "role": "Agent, Avenidas Novas and north Lisbon",
+    "phone": "+351 21 555 0163",
+    "email": "beatriz@marloweandquay.example",
+    "languages": ["Portuguese", "English", "German"],
+    "bio": "Beatriz grew up in Alvalade and knows which streets have the good schools and the quiet nights."
+  },
+  {
+    "id": "duarte-meireles",
+    "name": "Duarte Meireles",
+    "role": "Agent, east Lisbon and new developments",
+    "phone": "+351 21 555 0178",
+    "email": "duarte@marloweandquay.example",
+    "languages": ["Portuguese", "English"],
+    "bio": "Duarte follows every new building from Beato to Parque das Nações and walks buyers through the paperwork."
+  }
+]

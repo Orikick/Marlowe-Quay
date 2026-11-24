@@ -1,0 +1,68 @@
+@use '../../../styles' as *;
+
+.split {
+  display: grid;
+  grid-template-areas:
+    'top'
+    'main';
+  grid-template-columns: minmax(0, 1fr);
+  flex: 1;
+
+  @include from($bp-md) {
+    grid-template-areas:
+      'top map'
+      'list map';
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+  }
+
+  @include from($bp-lg) {
+    grid-template-columns: minmax(0, 11fr) minmax(0, 9fr);
+  }
+
+  @include from($bp-xl) {
+    grid-template-columns: minmax(640px, 3fr) minmax(0, 2fr);
+  }
+}
+
+.top {
+  grid-area: top;
+  padding-top: $space-5;
+  padding-bottom: $space-4;
+
+  @include gutters;
+}
+
+.list {
+  grid-area: main;
+  // Room at the bottom on phones for the floating list/map toggle.
+  padding-bottom: 88px;
+
+  @include gutters;
+
+  @include from($bp-md) {
+    grid-area: list;
+    padding-bottom: $space-7;
+  }
+}
+
+.map {
+  position: relative;
+  grid-area: main;
+  overflow: hidden;
+  // Keeps Leaflet's internal z-indexes from rising above the header and the toggle.
+  isolation: isolate;
+  height: calc(100dvh - #{$header-h} - 120px);
+  min-height: 420px;
+
+  @include from($bp-md) {
+    position: sticky;
+    top: $header-h;
+    grid-area: map;
+    align-self: start;
+    height: calc(100vh - #{$header-h});
+    height: calc(100dvh - #{$header-h});
+    min-height: 0;
+    border-left: 1px solid var(--color-line);
+  }
+}

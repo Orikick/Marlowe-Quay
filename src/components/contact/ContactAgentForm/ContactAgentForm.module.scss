@@ -1,0 +1,35 @@
+@use '../../../styles' as *;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: $space-4;
+}
+
+.privacy {
+  color: var(--color-ink-soft);
+  font-size: $text-xs;
+}
+
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: $space-3;
+  padding: $space-5;
+  border: 1.5px solid var(--color-success);
+  border-radius: $radius-md;
+  background: var(--color-success-wash);
+
+  &:focus-visible {
+    @include focus-ring;
+  }
+}
+
+.successIcon {
+  color: var(--color-success);
+}
+
+.successTitle {
+  font-size: $text-xl;
+}

@@ -1,0 +1,56 @@
+@use '../../../styles' as *;
+
+.group {
+  @include fieldset-reset;
+}
+
+.legend {
+  @include control-label;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-2;
+}
+
+.option {
+  position: relative;
+  display: inline-flex;
+}
+
+.input {
+  @include visually-hidden;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 $space-4;
+  border: 1.5px solid var(--color-line-strong);
+  border-radius: $radius-pill;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-size: $text-sm;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  transition:
+    background-color 0.12s ease,
+    border-color 0.12s ease;
+
+  &:hover {
+    border-color: var(--color-ink);
+  }
+}
+
+.input:checked + .pill {
+  border-color: var(--color-azul);
+  background: var(--color-azul);
+  color: #fff;
+}
+
+.input:focus-visible + .pill {
+  @include focus-ring;
+}

@@ -1,0 +1,68 @@
+@use '../../../styles' as *;
+
+// Pinned to the screen (not the map), just above the floating list/map toggle,
+// so it is always visible however far the page is scrolled.
+.preview {
+  position: fixed;
+  right: $space-3;
+  bottom: 80px;
+  left: $space-3;
+  z-index: 1040; // above Leaflet panes and controls, below the toggle
+  display: flex;
+  overflow: hidden;
+  border-radius: $radius-md;
+  background: var(--color-paper);
+  box-shadow: 0 4px 16px rgba(20, 33, 61, 0.3);
+}
+
+.photo {
+  flex: none;
+  width: 116px;
+}
+
+.body {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  padding: $space-3 $space-6 $space-3 $space-3;
+}
+
+.price {
+  font-family: $font-display;
+  font-size: $text-lg;
+  font-weight: 700;
+}
+
+.title {
+  font-family: $font-body;
+  font-size: $text-sm;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.link {
+  color: var(--color-ink);
+
+  &:hover {
+    color: var(--color-ink);
+  }
+}
+
+.meta {
+  margin-top: $space-1;
+  color: var(--color-ink-soft);
+  font-size: $text-xs;
+}
+
+.close {
+  @include button-reset;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  color: var(--color-ink);
+}

@@ -1,0 +1,32 @@
+@use '../../../styles' as *;
+
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: $space-3;
+  font-variant-numeric: tabular-nums;
+}
+
+.amount {
+  font-family: $font-display;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.perArea {
+  color: var(--color-ink-soft);
+  font-size: $text-sm;
+}
+
+.medium .amount {
+  font-size: $text-xl;
+}
+
+.large .amount {
+  font-size: $text-2xl;
+
+  @include from($bp-md) {
+    font-size: 2.25rem;
+  }
+}

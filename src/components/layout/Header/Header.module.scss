@@ -1,0 +1,115 @@
+@use '../../../styles' as *;
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: $z-header;
+  border-bottom: 1px solid var(--color-line);
+  background: var(--color-paper);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-3;
+  height: $header-h;
+
+  @include gutters;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-2;
+  color: var(--color-ink);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--color-ink);
+  }
+}
+
+.logo {
+  flex: none;
+}
+
+.wordmark {
+  font-family: $font-display;
+  font-size: $text-lg;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+
+  @include from($bp-md) {
+    font-size: $text-xl;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: $space-1;
+
+  @include from($bp-md) {
+    gap: $space-3;
+  }
+}
+
+.link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: $space-1;
+  min-height: 44px;
+  padding: 0 $space-2;
+  border-radius: $radius-sm;
+  color: var(--color-ink);
+  font-size: $text-sm;
+  font-weight: 600;
+  text-decoration: none;
+
+  @include from($bp-md) {
+    padding: 0 $space-3;
+    font-size: $text-md;
+  }
+
+  &:hover {
+    background: var(--color-wash);
+    color: var(--color-ink);
+  }
+}
+
+// Current page: a tram-yellow bar under the link.
+.active::after {
+  content: '';
+  position: absolute;
+  right: $space-2;
+  bottom: 4px;
+  left: $space-2;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--color-tram);
+}
+
+.wideOnly {
+  display: none;
+
+  @include from($bp-sm) {
+    display: inline;
+  }
+}
+
+.count {
+  display: inline-grid;
+  place-items: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: $radius-pill;
+  background: var(--color-azul);
+  color: #fff;
+  font-size: $text-xs;
+  font-weight: 700;
+  line-height: 1;
+}

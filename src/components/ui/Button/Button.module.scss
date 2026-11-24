@@ -1,0 +1,84 @@
+@use '../../../styles' as *;
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: $space-2;
+  min-height: 44px;
+  padding: $space-2 $space-5;
+  border: 1.5px solid transparent;
+  border-radius: $radius-sm;
+  font-size: $text-md;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+.primary {
+  background: var(--color-azul);
+  color: #fff;
+
+  &:hover {
+    background: var(--color-azul-deep);
+    color: #fff;
+  }
+
+  &:disabled {
+    background: var(--color-line-strong);
+  }
+}
+
+.secondary {
+  border-color: var(--color-azul);
+  background: var(--color-paper);
+  color: var(--color-azul);
+
+  &:hover {
+    background: var(--color-wash);
+    color: var(--color-azul-deep);
+  }
+
+  &:disabled {
+    border-color: var(--color-line-strong);
+    background: var(--color-paper);
+    color: var(--color-ink-soft);
+  }
+}
+
+.ghost {
+  background: transparent;
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+
+  &:hover {
+    background: var(--color-wash);
+    color: var(--color-ink);
+  }
+
+  &:disabled {
+    background: transparent;
+    color: var(--color-ink-soft);
+    text-decoration: none;
+  }
+}
+
+.small {
+  min-height: 40px;
+  padding: $space-1 $space-3;
+  font-size: $text-sm;
+}
+
+.block {
+  width: 100%;
+}
